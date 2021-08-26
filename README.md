@@ -12,7 +12,9 @@ It is an application architecture that organizes applications into three logical
 
 **How we can easily build it in Azure?**
 
-We will use 2 virtual machines and a SQL to do this, presentation tier will be managed by the Web server and Application by the App servers, Web server will have Inbound access from internet and app server will be connected to the SQL service
+We will use 2 virtual machines and a SQL server and a DB inside to do this, presentation tier will be managed by the Web server and Application by the App servers, Web server will have Inbound access from internet and app server will be connected to the SQL service
+
+All the resources will be connected to a single VNET with respective subnets and Network Security Groups will have the necessary rules to control traffic.
 
 **How to use Terraform?**
 
