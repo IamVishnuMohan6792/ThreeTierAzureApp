@@ -4,7 +4,8 @@ Build 3 tier architecture resources using Terraform
 
 **What do we mean by three-tier architecture**
 
-It is an application architecture that organizes applications into three logical and physical computing tiers: 
+It is an application architecture that organizes applications into three logical and physical computing tiers:
+
 -> Presentation tier(UI) 
 -> Application tier (Processing)
 -> Data tier (Storage)
