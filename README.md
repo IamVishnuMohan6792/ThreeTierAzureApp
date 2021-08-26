@@ -16,4 +16,4 @@ We will use 2 virtual machines and a SQL to do this, presentation tier will be m
 
 **How to use Terraform?**
 
-We can use simple TF code to spin  up these VM machines, this can also be placed into modules and re used
+We can use simple TF code to spin  up these VM machines, this can also be placed into modules and re-used as required.
